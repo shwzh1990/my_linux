@@ -1,0 +1,1 @@
+cmd_/home/shwzh1990/Documents/learn/linux/my_linux/raspberry/kernel_test_code/Module.symvers := sed 's/\.ko$$/\.o/' /home/shwzh1990/Documents/learn/linux/my_linux/raspberry/kernel_test_code/modules.order | scripts/mod/modpost -m -a  -o /home/shwzh1990/Documents/learn/linux/my_linux/raspberry/kernel_test_code/Module.symvers -e -i Module.symvers   -T -

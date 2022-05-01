@@ -1,0 +1,1 @@
+cmd_/home/shwzh1990/Documents/learn/linux/my_linux/raspberry/kernel_test_code/kernel_test_code.mod := { echo  /home/shwzh1990/Documents/learn/linux/my_linux/raspberry/kernel_test_code/kernel_test_code.o;  echo; } > /home/shwzh1990/Documents/learn/linux/my_linux/raspberry/kernel_test_code/kernel_test_code.mod
