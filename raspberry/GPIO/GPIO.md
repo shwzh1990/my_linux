@@ -81,3 +81,18 @@ fef09500-fef095ff : fef09500.i2c bsc
     600000000-600000fff : 0000:01:00.0
       600000000-600000fff : xhci-hcd
 *The range of gpio is fe200000-fe2000b3*
+
+
+9. copy_from_user(to, from, size):
+   needs to use this function to get the data from application side.
+### How to test the GPIO code?
+copy gpio.c and gpio_app.c to raspberrypi
+make gpio.c
+insmod gpio.ko
+sudo chmod 777 /dev/my_gpio
+genernate gpio_app file
+./gpio_app on : high level on GPIO0
+./gpio_app off: low level on GPIO0
+
+
+    
